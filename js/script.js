@@ -89,19 +89,28 @@ let num = 1;
 
 
 
-if (2 > 1) {
-  function showMessage() {
-    console.log('Message');
-  };
-  showMessage();
-}
+// if (2 > 1) {
+//   function showMessage() {
+//     console.log('Message');
+//   };
+//   showMessage();
+// }
   
-//==== или ====
+// //==== или ====
 
-let y;
-if (2 > 1) {
-  function showMessage() {
-    console.log('Message');
-  };
-}
-y();
+// let y;
+// if (2 > 1) {
+//   function showMessage() {
+//     console.log('Message');
+//   };
+// }
+// y();
+
+
+// ========== freelancer for life (redhead) ===============
+
+let eyeColor = 'green';
+let user;
+let userName = 'Vasya';
+user = userName;
+console.log(user);
