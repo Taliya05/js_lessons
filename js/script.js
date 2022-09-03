@@ -64,9 +64,9 @@ let num = 1;
 
 // let f = false;
 // for (let num = 0; num < 4; num++) {
-//   console.log("num >> " + num); 
+//   console.log("num >> " + num);
 //   for (let size = 0; size < 3; size++) {
-//     console.log("size >> " + size);  
+//     console.log("size >> " + size);
 //    // if (size == 1) { f = true };
 //   }
 //  // if(f){break;}
@@ -109,8 +109,20 @@ let num = 1;
 
 // ========== freelancer for life (redhead) ===============
 
+// variables
+
 let eyeColor = 'green';
 let user;
 let userName = 'Vasya';
 user = userName;
 console.log(user);
+
+// operator
+
+let resultOne = 2 + + "2";
+console.log(resultOne);
+// 4
+
+let resultTwo = 2 + - "2";
+console.log(resultTwo);
+// 0
