@@ -112,70 +112,98 @@ let num = 1;
 
 // ============  variables=============
 
-let eyeColor = 'green';
-let user;
-let userName = 'Vasya';
-user = userName;
-console.log(user);
+// let eyeColor = 'green';
+// let user;
+// let userName = 'Vasya';
+// user = userName;
+// console.log(user);
 
-// ============== operator ===============
+// // ============== operator ===============
 
-let resultOne = 2 + + "2";
-console.log(resultOne);
-// 4
+// let resultOne = 2 + + "2";
+// console.log(resultOne);
+// // 4
 
-let resultTwo = 2 + - "2";
-console.log(resultTwo);
-// 0
+// let resultTwo = 2 + - "2";
+// console.log(resultTwo);
+// // 0
 
-//  =================== cycles FOR and WHILE =================
+// //  =================== cycles FOR and WHILE =================
+
+// // #1
+
+// let num1 = 1;
+// while (num1 < 6) {
+//   console.log(num1);
+//   num1++;
+// }
+
+// let num2 = 1;
+// do {
+//   console.log(num2);
+//   num2++;
+// } while (num2 < 6);
+
+// let num3 = 1;
+// for (num3; num3 < 6; num3++) {
+//   console.log(num3);
+// }
+
+// // #2
+
+// let num4 = 8;
+// while (num4) {
+//   console.log(num4);
+//   num4--;  
+// }
+
+// // #3
+
+// for (let num5 = 0; num5 < 3; num5++) {
+//   console.log(`Число: ${num5}`);
+// }
+
+// let num6 = 0;
+// while (num6 < 3) {
+//   console.log(`Число: ${num6}`);
+//   num6++;
+// }
+
+// // #4
+
+// for (let num7 = 0; num7 < 2; num7++) {
+
+//   for (let size = 0; size < 3; size++) {
+//     if (size == 1) break;
+//     console.log(size);
+//   }
+// }
+
+
+//  =================== Functions =================
 
 // #1
 
-let num1 = 1;
-while (num1 < 6) {
-  console.log(num1);
-  num1++;
+function showName() {
+  console.log('Vasya');
 }
-
-let num2 = 1;
-do {
-  console.log(num2);
-  num2++;
-} while (num2 < 6);
-
-let num3 = 1;
-for (num3; num3 < 6; num3++) {
-  console.log(num3);
-}
+setTimeout(showName, 0);
+console.log('Kolya');
 
 // #2
 
-let num4 = 8;
-while (num4) {
-  console.log(num4);
-  num4--;  
-}
-
-// #3
-
-for (let num5 = 0; num5 < 3; num5++) {
-  console.log(`Число: ${num5}`);
-}
-
-let num6 = 0;
-while (num6 < 3) {
-  console.log(`Число: ${num6}`);
-  num6++;
-}
+showMessage();
+function showMessage() {
+  console.log('Message');
+} 
 
 // #4
 
-for (let num7 = 0; num7 < 2; num7++) {
+// 'use strict'
 
-  for (let size = 0; size < 3; size++) {
-    if (size == 1) break;
-    console.log(size);
+  function showMessage1() {
+    if (2 > 1) {
+      console.log('Message1');
+    }
   }
-}
-
+showMessage1();
