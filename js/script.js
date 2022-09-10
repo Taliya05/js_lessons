@@ -298,12 +298,42 @@ let num = 1;
 5.Удалите свойство name из объекта.
 */
 
-let userInfo = {
-  name: "Вася",
-  age: 30,
-}
+// let userInfo = {
+//   name: "Вася",
+//   age: 30,
+// }
 
-userInfo.name = "Lena";
-console.log(userInfo);
-delete userInfo.name;
-console.log(userInfo);
+// userInfo.name = "Lena";
+// console.log(userInfo);
+// delete userInfo.name;
+// console.log(userInfo);
+
+
+
+
+
+//========================  number ==========================
+
+// №1. Получить верное значение округления
+// let n = 1.005 + Number.EPSILON
+// let numOne = Math.round(n * 100) / 100;
+// console.log(numOne); // Выведет 1 что не верно
+
+// №2. Получить число 135.58 из строки
+// let value = + parseFloat("135.58px");
+// console.log(value);
+
+//  №3. Посттроить верное условное ветвление
+// let value = 58 + "Фрилансер";
+// if (58 + "Фрилансер" !== NaN) {
+// 	console.log('Результат выражения NaN');
+// }
+
+// Задача №4.
+// Найти максимальное число из 10,58,39,-150,0
+// console.log(Math.max(10,58,39,-150,0));
+
+// Задача №5.
+// Округлить число 58.858 до числа 58
+// console.log(Math.floor(58.858));
+console.log(Date.getFullYear())
