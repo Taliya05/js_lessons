@@ -49,8 +49,6 @@ let num = 1;
 // for (num = 11; num < 16; num++) {
 //   console.log(num);
 
-
-
 // }
 
 // // for (num = 0; num <= 10; num=num+2) {
@@ -72,13 +70,11 @@ let num = 1;
 //  // if(f){break;}
 // }
 
-
 // for (let i = 0; i < 10; i++) {
 //   for (let j = 0; j < 10; j++) {
 //     console.log(j + 1 + (i * 10));
 //   }
 // }
-
 
 // function showName() {
 //   console.log('Vasya!');
@@ -87,15 +83,13 @@ let num = 1;
 // setTimeout(showName, 0);
 // console.log('Kolya!');
 
-
-
 // if (2 > 1) {
 //   function showMessage() {
 //     console.log('Message');
 //   };
 //   showMessage();
 // }
-  
+
 // //==== или ====
 
 // let y;
@@ -154,7 +148,7 @@ let num = 1;
 // let num4 = 8;
 // while (num4) {
 //   console.log(num4);
-//   num4--;  
+//   num4--;
 // }
 
 // // #3
@@ -179,7 +173,6 @@ let num = 1;
 //   }
 // }
 
-
 //  =================== Functions =================
 
 // #1
@@ -195,7 +188,7 @@ let num = 1;
 // showMessage();
 // function showMessage() {
 //   console.log('Message');
-// } 
+// }
 
 // // #4
 
@@ -207,7 +200,6 @@ let num = 1;
 //     }
 //   }
 // showMessage1();
-
 
 //  =================== Object =================
 
@@ -225,7 +217,7 @@ let num = 1;
 // }
 // console.log(userInfo2[58]);
 
-//  №3 
+//  №3
 // let userInfo3 = {
 // 	name: "Вася",
 // 	age: 30
@@ -235,7 +227,7 @@ let num = 1;
 
 // console.log(userInfo3.age);
 
-//  №4 
+//  №4
 // let userInfo4 = {
 // 	name: "Вася",
 // 	age: 30,
@@ -246,7 +238,6 @@ let num = 1;
 // let user = userInfo4;
 // userInfo4 = null;
 // user.showInfo();
-
 
 // №5
 // let userInfo = {
@@ -308,10 +299,6 @@ let num = 1;
 // delete userInfo.name;
 // console.log(userInfo);
 
-
-
-
-
 //========================  number ==========================
 
 // №1. Получить верное значение округления
@@ -336,4 +323,4 @@ let num = 1;
 // Задача №5.
 // Округлить число 58.858 до числа 58
 // console.log(Math.floor(58.858));
-console.log(Date.getFullYear())
+console.log(Date.getFullYear());
