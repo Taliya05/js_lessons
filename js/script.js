@@ -184,26 +184,126 @@ let num = 1;
 
 // #1
 
-function showName() {
-  console.log('Vasya');
+// function showName() {
+//   console.log('Vasya');
+// }
+// setTimeout(showName, 0);
+// console.log('Kolya');
+
+// // #2
+
+// showMessage();
+// function showMessage() {
+//   console.log('Message');
+// } 
+
+// // #4
+
+// // 'use strict'
+
+//   function showMessage1() {
+//     if (2 > 1) {
+//       console.log('Message1');
+//     }
+//   }
+// showMessage1();
+
+
+//  =================== Object =================
+
+// №1 (верна ли запись)
+// const userInfo1 = {
+// 	name: "Вася",
+// 	age: 30,
+// }
+
+// Задача №2 (что будет в консоли?)
+// let userInfo2 = {
+// 	name: "Вася",
+// 	age: 30,
+// 	"58": 'Значение свойства'
+// }
+// console.log(userInfo2[58]);
+
+//  №3 
+// let userInfo3 = {
+// 	name: "Вася",
+// 	age: 30
+// }
+// let user = userInfo3;
+// user.age = 45;
+
+// console.log(userInfo3.age);
+
+//  №4 
+// let userInfo4 = {
+// 	name: "Вася",
+// 	age: 30,
+// 	showInfo() {
+// 		console.log(`${this.name}`);
+// 	}
+// }
+// let user = userInfo4;
+// userInfo4 = null;
+// user.showInfo();
+
+
+// №5
+// let userInfo = {
+// 	name: "Вася",
+//   age: 30,
+//   20: 21,
+//   adress: {
+//     city: "fgfgh",
+//     street: 45,
+//   }
+// }
+// for (const key in userInfo) {
+// 	// const value = userInfo[key];
+//   // console.log(value);
+//   console.log("key = ", key, " value = ", userInfo[key]);
+// }
+// userInfo.adress.street = 34;
+// // console.log(userInfo.adress.street);
+// // console.log(userInfo["adress"]['street']);
+// let t = 'age';
+// console.log(userInfo[t]);
+
+// №6
+// let userInfo = {
+// 	name: "Вася",
+// 	age: 30,
+// 	address: {
+// 		city: "Uzhhorod"
+// 	}
+// }
+// for (const key in userInfo.address) {
+// 	console.log(userInfo.address[key]);
+// }
+
+// №7
+// const userInfo = {
+// 	name: "Вася",
+// 	age: 30,
+// 	"likes js": true
+// }
+// console.log(userInfo["likes js"]);
+
+// №8
+/*
+1.Создайте пустой объект userInfo.
+2.Добавьте свойство name со значением Вася.
+3.Добавьте свойство age со значением 30.
+4.Измените значение свойства name на Лена.
+5.Удалите свойство name из объекта.
+*/
+
+let userInfo = {
+  name: "Вася",
+  age: 30,
 }
-setTimeout(showName, 0);
-console.log('Kolya');
 
-// #2
-
-showMessage();
-function showMessage() {
-  console.log('Message');
-} 
-
-// #4
-
-// 'use strict'
-
-  function showMessage1() {
-    if (2 > 1) {
-      console.log('Message1');
-    }
-  }
-showMessage1();
+userInfo.name = "Lena";
+console.log(userInfo);
+delete userInfo.name;
+console.log(userInfo);
