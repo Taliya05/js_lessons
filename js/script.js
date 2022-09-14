@@ -337,22 +337,35 @@ let num = 1;
 // console.log(text);
 
 // Задача №2. Получить символ "н" строки:
-let text = 'фрилансер';
+// let text = 'фрилансер';
+// let firstSymbol = text[0];
+// let lasttSymbol = text[text.length - 4];
+// console.log(firstSymbol);
+// console.log(lasttSymbol);
+
 
 
 // Задача №3. Верно?
 // let text = 123 + "456";
-// // Ожидаем 579
+// // Ожидаем 579 - не верно!
 // console.log(text);
+
+// let text1 = 123 + 456;
+// // Ожидаем 579
+// console.log(text1);
 
 
 // Задача №4. Получить строку в верхнем регистре
 // let text = 'фрилансер';
+// console.log(text.toUpperCase());
 
 // Задача №5. Получить подстроку "лан" из:
 // let text = 'фрилансер';
+// console.log(text.indexOf('лан'));
+// console.log(text.indexOf('лан', 3));
 
-// Задача №6. true или false ?
+
+// Задача №6. true или false ?   - false!
 // let text = 'фрилансер';
 // console.log(text.includes('лан', 4));
 
