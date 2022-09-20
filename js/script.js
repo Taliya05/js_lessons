@@ -435,7 +435,15 @@ let num = 1;
 // Задача №1.
 // Получить в переменную элемент с атрибутом data-say-hi
 // и прочитать значение этого атрибута
-{<div data-say-hi="yes">Привет!</div>}
+// {<div data-say-hi="yes">Привет!</div>}
+
+// const elemsData = document.querySelectorAll('[data-say-hi]');
+// console.log(elemsData[0]);
+
+const elemsData = document.querySelectorAll('[data-say-hi]');
+console.log(elemsData[0]);
+
+
 
 // // Задача №2.
 // // Получить в переменную элемент с текстом Йончи
