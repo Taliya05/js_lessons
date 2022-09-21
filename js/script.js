@@ -437,39 +437,63 @@ let num = 1;
 // и прочитать значение этого атрибута
 // {<div data-say-hi="yes">Привет!</div>}
 
+
+// Поиск по атрибуту со значением
 // const elemsData = document.querySelectorAll('[data-say-hi]');
 // console.log(elemsData[0]);
 
-const elemsData = document.querySelectorAll('[data-say-hi]');
-console.log(elemsData[0]);
+// ---------------------------------
+
+// Задача №2.
+// Получить в переменную элемент с текстом Йончи
+{/* <ul>
+	<li>Корчи</li>
+	<li>Йончи</li>
+</ul> */}
 
 
+// Получение конкретного элемента коллекции
+// const elemsLi = document.querySelectorAll('li');
+// console.log(elemsLi[1]);
 
-// // Задача №2.
-// // Получить в переменную элемент с текстом Йончи
-// {/* <ul>
-// 	<li>Корчи</li>
-// 	<li>Йончи</li>
-// </ul> */}
+// ---------------------------------
 
-// // Задача №3.
-// // Получить в переменную коллекцию элементов с классом like
-// <div class="like"></div>
-// <div class="subscribe"></div>
-// <div class="like subscribe"></div>
+
+// Задача №3.
+// Получить в переменную коллекцию элементов с классом like
+{/* <div class="like"></div>
+<div class="subscribe"></div>
+<div class="like subscribe"></div> */}
+
+
+// Поиск по селектору класса
+// const elemslike = document.querySelectorAll('.like');
+// console.log(elemslike);
+
+
+// ---------------------------------
 
 // Задача №4.
 // Куда добавится <li>Текст</li> ?
 
-// JS
-// const list = document.querySelectorAll('ul');
-// list.insertAdjacentHTML(
-// 	'beforeend',
-// 	'<li>Текст</li>'
+
+// Создаем новый HTML-объект.
+// const lessonList = document.querySelector('.lesson__list');
+// lessonList.insertAdjacentHTML(
+// 	"beforeend",
+// 	'<li class="lesson__item-list">Новый пункт</li>'
 // );
 
-// // // HTML
-// // <ul>
-// // 	<li>Пункт №1</li>
-// // 	<li>Пункт №2</li>
-// // </ul>
+
+// JS
+const list = document.querySelector('ul');
+list.insertAdjacentHTML(
+	"beforeend",
+	'<li>Текст</li>'
+);
+
+// HTML
+{/* <ul>
+	<li>Пункт №1</li>
+	<li>Пункт №2</li>
+</ul> */}
