@@ -486,14 +486,54 @@ let num = 1;
 
 
 // JS
-const list = document.querySelector('ul');
-list.insertAdjacentHTML(
-	"beforeend",
-	'<li>Текст</li>'
-);
+// const list = document.querySelector('ul');
+// list.insertAdjacentHTML(
+// 	"beforeend",
+// 	'<li>Текст</li>'
+// );
 
 // HTML
 {/* <ul>
 	<li>Пункт №1</li>
 	<li>Пункт №2</li>
 </ul> */}
+
+
+
+
+//======================== scroll sizes and coordinates ==========================
+
+
+// Задача №1.
+// Узнать ширину полосы прокрутки
+
+// // Получаем размеры объекта
+// const elementOffsetWidth = block.offsetWidth;
+// const elementOffsetHeight = block.offsetHeight;
+
+// console.log(elementOffsetWidth);
+// console.log(elementOffsetHeight);
+
+
+// Доступная ширина и высота окна
+const mainElement = document.documentElement;
+const mainElementWidth = mainElement.clientWidth;
+const mainElementHeight = mainElement.clientHeight;
+
+console.log(mainElementWidth);
+console.log(mainElementHeight);
+
+//-----------
+
+// // Ширина и высота окна вместе с полосами прокрутки
+const windowWidth = window.innerWidth;
+console.log(windowWidth);
+
+
+
+// Задача №2.
+// Заставьте браузер прокрутиться на 100px сверху
+// спустя секунду после открытия страницы
+
+// Задача №3.
+// Получите координаты любых трех элементов на странице
