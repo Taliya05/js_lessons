@@ -516,18 +516,18 @@ let num = 1;
 
 
 // Доступная ширина и высота окна
-const mainElement = document.documentElement;
-const mainElementWidth = mainElement.clientWidth;
-const mainElementHeight = mainElement.clientHeight;
+// const mainElement = document.documentElement;
+// const mainElementWidth = document.documentElement.clientWidth;
+// console.log(mainElementWidth);
 
-console.log(mainElementWidth);
-console.log(mainElementHeight);
 
 //-----------
 
-// // Ширина и высота окна вместе с полосами прокрутки
-const windowWidth = window.innerWidth;
-console.log(windowWidth);
+// Ширина и высота окна вместе с полосами прокрутки
+// const windowWidth = window.innerWidth;
+// console.log(windowWidth);
+
+// console.log(windowWidth - mainElementWidth);
 
 
 
