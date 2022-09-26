@@ -548,3 +548,11 @@ let num = 1;
 
 // Задача №3.
 // Получите координаты любых трех элементов на странице
+
+// // Получаем объект
+// const coordsLesson = document.querySelector('.lesson');
+
+// // Получаем координаты относительно окна браузера
+// const getCoordsLesson = coordsLesson.getBoundingClientRect();
+
+// console.log(getCoordsLesson);
