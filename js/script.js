@@ -556,3 +556,64 @@ let num = 1;
 // const getCoordsLesson = coordsLesson.getBoundingClientRect();
 
 // console.log(getCoordsLesson);
+
+
+
+
+//============= EVENTS. addEventListener delegation. Keyboard mouse events loading the site. =================
+
+
+// Пишем форму поиска, которая открывается по клику на иконку
+// а закрывается по клику на любое место страницы, кроме самой формы.
+// Также, закрыть форму можно по клавише эскейп (Esc) на клавиатуре.
+// Для поля ввода поискового запроса добавляем счетчик символов.
+
+
+
+const button1 = document.querySelector('.wrap')
+// button.onclick = function () {
+// 	console.log('Клик!');
+// }
+
+function showConsole() {
+	console.log('Клик!');
+}
+// button.onclick = showConsole;
+
+button1.addEventListener("click", function (event) {
+	if (event.target.closest('.wrap')) {
+		showConsole();
+	}
+});
+
+
+
+// $(document).ready(function(){
+  
+//   $(".fa-search").click(function(){
+//     $(".wrap, .input").toggleClass("active");
+//     $("input[type='text']").focus();
+//   });
+  
+// });
+
+
+
+
+
+
+
+
+
+// const form = document.querySelector('.menu');
+
+// document.addEventListener("click", menu);
+
+// function menu(event) {
+// 	if (event.target.closest('.menu__button')) {
+// 		menuBody.classList.toggle('_active');
+// 	}
+// 	if (!event.target.closest('.menu')) {
+// 		menuBody.classList.remove('_active');
+// 	}
+// }

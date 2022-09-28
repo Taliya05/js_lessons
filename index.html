@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1> <span class="yellow">JavaScript</span> </h1>
-    <hr>
-    <h2>Lesson #5</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1> <span class="yellow">JavaScript</span> </h1>
+  <hr>
+  <h2>Lesson #5</h2>
+  <br>
+  <div id="text"></div>
+
+  <!-- //========================   DOM ========================== -->
+
+  <br>
+  <div data-say-hi="yes">Привет!</div>
+
+  <ul>
+    <li>Корчи</li>
+    <li>Йончи</li>
+  </ul>
+  <br>
+
+  <div class="like"></div>
+  <div class="subscribe"></div>
+  <div class="like subscribe"></div>
+  <br>
+
+  <ul>
+    <li>Пункт №1</li>
+    <li>Пункт №2</li>
+  </ul>
+
+  <!-- //========================   DOM ========================== -->
+
+  <!-- //======================== scroll sizes and coordinates ========================== -->
+
+  <br>
+
+  <div class="wrapper">
+    <h1>
+      <span class="yellow">JavaScript.</span>
+
+      Размеры, прокрутка, Координаты
+    </h1>
     <br>
-    <div id="text"></div>
-
-    <!-- //========================   DOM ========================== -->
-
+    <h3>Урок №14</h3>
     <br>
-    <div data-say-hi="yes">Привет!</div>
-
-    <ul>
-      <li>Корчи</li>
-      <li>Йончи</li>
-    </ul> 
-    <br>
-
-    <div class="like"></div>
-    <div class="subscribe"></div>
-    <div class="like subscribe"></div>
-    <br>
-
-    <ul>
-      <li>Пункт №1</li>
-      <li>Пункт №2</li>
-    </ul>
-
-    <!-- //========================   DOM ========================== -->
-
-    <!-- //======================== scroll sizes and coordinates ========================== -->
-
-    <br>
-
-    <div class="wrapper">
-			<h1>
-				<span class="yellow">JavaScript.</span>
-        
-				Размеры, прокрутка, Координаты
-			</h1>
+    <div class="lesson">
+      <h1 class="lesson__title">Я заголовок</h1>
       <br>
-			<h3>Урок №14</h3>
-      <br>
-			<div class="lesson">
-				<h1 class="lesson__title">Я заголовок</h1>
-        <br>
-				<div class="lesson__text">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p class="lesson__item">Я объект</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
-					</p>
-				</div>
-				<!-- 
+      <div class="lesson__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p class="lesson__item">Я объект</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cum at mollitia odio. Esse molestiae eaque
+          nihil fugit ea deserunt. Magnam, iste ea eos autem reprehenderit architecto impedit vitae?
+        </p>
+      </div>
+      <!-- 
 				<div class="lesson__block">
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta vel blanditiis consectetur pariatur modi, animi id saepe excepturi fugit ut culpa alias officiis minus, in consequatur. Veritatis porro accusamus consequatur!
@@ -134,12 +148,148 @@
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum amet nobis vel eaque doloribus perspiciatis ex est dicta atque nulla, nisi quam ab laboriosam placeat sit, eveniet delectus distinctio ratione!</p>
 				</div>
 				-->
-			</div>
-		</div>
+    </div>
+  </div>
 
-    <!-- //======================== scroll sizes and coordinates ========================== -->
+  <!-- //======================== scroll sizes and coordinates ========================== -->
 
-    <script src="js/script.js"></script>
-    
-  </body>
+
+
+  //============= EVENTS. addEventListener delegation. Keyboard mouse events loading the site. =================
+
+
+  <div class="wrapper1">
+    <h1>
+      <span class="yellow">JavaScript</span> события
+    </h1>
+    <h3>Урок №15</h3>
+    <div class="lesson">
+      <!-- Использование атрибута HTML -->
+      <button onclick="console.log('Клик!')" type="button" class="button">Нажми на меня!</button>
+      <!-- Использование DOM объекта и методов addEventListener/removeEventListener  -->
+      <button type="button" class="button"><span>Нажми на меня!<span></button>
+
+      <!-- Всплытие и погружение -->
+
+      <div class="block">
+        Блок
+        <div class="block__inner">
+          Блок второго уровня
+          <div class="block__inner-inner">
+            Блок третьего уровня
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Делегирование событий -->
+
+      <button type="button" class="button"><span>Нажми на меня!</span></button>
+      <button type="button" class="button">И на меня!</button>
+      <button type="button" class="button">И на меня!</button>
+      <button type="button" class="button">И на меня!</button>
+
+      <!-- Пример с меню -->
+
+      <nav class="menu">
+        <button type="button" class="menu__button">
+          <span>Открыть меню</span>
+          <span>Закрыть меню</span>
+        </button>
+        <ul hidden class="menu__list">
+          <li><a href="" class="menu__link">Пункт №1</a></li>
+          <li><a href="" class="menu__link">Пункт №2</a></li>
+          <li><a href="" class="menu__link">Пункт №3</a></li>
+          <li><a href="" class="menu__link">Пункт №4</a></li>
+        </ul>
+      </nav>
+
+
+
+      <!-- Действия браузера по умолчанию -->
+      <a href="https://google.com" class="link">Google</a>
+
+
+      <!-- События мыши -->
+
+      <div class="block-for-mouse">
+        <span>Я дочерний SPAN</span>
+      </div>
+
+
+      <!-- Пример делегирования наведения мыши -->
+
+
+      <div class="block-for-mouse">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+      </div>
+
+
+
+      <!-- Перетаскивание Drag`n`Drop -->
+
+      <div class="drag-field">
+        <div class="drag-field__item"></div>
+        <div class="drag-field__point"></div>
+      </div>
+
+
+      <!-- Клавиатура -->
+
+      <div class="textarea">
+        <textarea autocomplete="off" maxlength="30" name="form[]" class="textarea__item"></textarea>
+        <div class="textarea__counter">Осталось <span></span> символов</div>
+      </div>
+
+
+      <!-- Загрузка страницы -->
+      <img class="image" src="img/cover.jpg" alt="">
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <div class="wrap">
+    <input type="text" class="input" placeholder="Поиск">
+    <!-- <i class="fas fa-search" aria-hidden="true"></i> -->
+    <i class="fa fa-address-card" aria-hidden="true"></i>
+  </div>
+
+
+  <!-- <div class="d1">
+    <form>
+    <input type="text" placeholder="Искать здесь...">
+    <button type="submit"></button>
+    </form>
+  </div> -->
+
+  <!-- //============= EVENTS. addEventListener delegation. Keyboard mouse events loading the site. ================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>
